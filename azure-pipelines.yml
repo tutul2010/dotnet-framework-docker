@@ -18,6 +18,7 @@ variables:
   tag: '$(Build.BuildId)'
   # Agent VM image name
   vmImageName: 'windows-latest'
+  
 stages:
 - stage: Build
   displayName: Build and push stage
