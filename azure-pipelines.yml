@@ -11,7 +11,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '28018343-c564-433f-a4d5-a67ba5f43767'
+  dockerRegistryServiceConnection: 'acr-storage-conn'
   imageRepository: 'aspnetapp'
   containerRegistry: 'acrstorage07.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/aspnetapp/Dockerfile'
