@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'acr-storage-conn'
   imageRepository: 'aspnetapp'
   containerRegistry: 'acrstorage07.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/aspnetapp/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/samples/aspnetapp/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
